@@ -1,0 +1,18 @@
+.fonteSerif{
+    font-family: 'Times New Roman';
+    font-size: 5em; /*Tamanho equivalente a 80px*/
+}
+
+.fonteSans-Serif{
+    font-family: "Verdana";
+    font-size: 2.5em;/*Tamanho equivalente a 40px*/
+}
+
+.fonteMonospace{
+    font-family: "Courier New";
+    font-size: 1.25em;/*Tamanho equivalente a 20px*/
+}
+
+.conteudo{
+    font-size: 0.5em;
+}
