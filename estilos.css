@@ -1,0 +1,28 @@
+.menu{
+    background: #7ee087;
+    font-family: "Trebuchet MS", helvetica, sans-serif;
+    padding:10px;
+}
+
+a:link{
+    color: #091b8d;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #091b8d;
+}
+
+a:hover{
+    color: #1417db;
+    background-color: rgb(0, 217, 250);
+    border-radius: 10%;
+}
+
+a:active{
+    color: #c20909;
+}
+
+body{
+    background-color: #9abbf4dd;
+}
