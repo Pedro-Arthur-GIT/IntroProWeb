@@ -1,0 +1,53 @@
+.box{
+    background-image: url(../Img/camera.png);
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-sizing: border-box; 
+    box-shadow: 10px 10px 5px #888888;
+ }
+ 
+ 
+ .box h1 {
+     background: rgba(124, 69, 10, 0.5);
+     text-shadow: 3px 3px 3px rgb(235, 127, 11);
+ }
+
+ .box p {
+    background: rgba(124, 69, 10, 0.5);
+    color: rgb(235, 127, 11);
+    margin: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+ }
+ 
+ .boxgradiente{
+    background: linear-gradient(to top right, rgb(52, 52, 255), rgb(213, 78, 213), rgb(24, 231, 24), red);
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    box-sizing: border-box; 
+ }
+ 
+ 
+ .boxgradiente h1 {
+    margin: 10px;
+     color: rgb(255, 255, 255);
+ }
+
+ .boxgradiente p {
+    color: rgb(255, 255, 255);
+    margin: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+ }
+
+ .boxgr{
+    background: radial-gradient(red, orange, yellow, green 80%);
+    width: 600px;
+    height: 100px;
+    box-sizing: border-box; 
+ }
+ 
