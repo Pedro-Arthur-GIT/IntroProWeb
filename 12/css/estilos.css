@@ -1,0 +1,20 @@
+.pessoa{
+    color: red;
+}
+
+.pessoa[data-name="30"]{
+    color: blue;
+}
+
+.pessoa::before {
+    content: attr(integer)30;
+}
+
+.pessoa::after {
+    content: attr(data-idade);
+}
+
+li:hover{
+    cursor: pointer;
+}
+

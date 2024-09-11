@@ -1,0 +1,38 @@
+.conteudo {
+    background: #DCDCDC;
+    border: 2px solid rgb(0, 144, 254)
+}
+
+.linha {
+    background: hsl(36, 100%, 44%);
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.coluna {
+    
+}
+
+body {
+    background-color: #fff3e1;
+}
+
+img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+#big {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.tab {
+    width: 1000px;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            width: 300px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .profile-card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 5px solid #e0e0e0;
+            object-fit: cover;
+        }
+
+        .profile-card h2 {
+            margin: 10px 0 5px;
+            font-size: 22px;
+        }
+
+        .profile-card p {
+            color: #888;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .profile-card .info {
+            border-top: 1px solid #e0e0e0;
+            padding-top: 15px;
+        }
+
+        .profile-card .info div {
+            margin: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .profile-card .info div span:first-child {
+            font-weight: bold;
+        }
+
+        .profile-card .follow-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .follow-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="./img/profile.webp" alt="Profile Picture">
+        <h2>Nina Mcintire</h2>
+        <p>Software Engineer</p>
+
+        <div class="info">
+            <div>
+                <span>Followers</span>
+                <span>1,322</span>
+            </div>
+            <div>
+                <span>Following</span>
+                <span>543</span>
+            </div>
+            <div>
+                <span>Friends</span>
+                <span>13,287</span>
+            </div>
+        </div>
+
+        <button class="follow-btn">Follow</button>
+    </div>
+
+</body>
+</html>

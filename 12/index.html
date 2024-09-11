@@ -1,12 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Atividade 12</title>
 </head>
+<script type="text/javascript">
+    function mostravalor(componente){
+        var valor = componente.getAttribute("data-idade");
+        alert(valor);
+    }
+</script>
+
 <body>
-    
+    <ul>
+        <li class="pessoa" onclick="mostravalor(this)" data-idade="30">João</li>
+        <li class="pessoa" onclick="mostravalor(this)" data-idade="40">José</li>
+        <li class="pessoa" onclick="mostravalor(this)"data-idade="50">Maria</li>
+    </ul>
     
 </body>
 </html>
