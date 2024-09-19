@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
     <link rel="stylesheet" type="text/css" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css" media="screen">
+    <link rel="icon" type="image/png" href="./img/icon.png">
     
-    <title>Trabalho Final</title>
+    <title>Formulário de Contato</title>
 </head>
     <body>
-
         <div class="holy-grail-grid">
 
 
             <header class="header">
-                <div class="logo"></div>
+               <div><img src="./img/ifLogo.png" class="img-fluid"><img src="./img/lic_comp.png" class="img-fluid"></div>
             </header>
 
             <section class="left-sidebar">
@@ -61,11 +61,49 @@
               </nav>
             </section>
 
-            <main class="main-content">Main content</main>
+            <main class="main-content">
+              <h1>Formulário de Contato</h1>
 
-            <aside class="right-sidebar">Right sidebar</aside>
+              <div class="contact-form"></div>
+                <form action="enviar_contato.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nome <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required placeholder="Seu nome completo">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="email">Email <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="Seu email">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" name="subject" placeholder="Assunto do contato">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="message">Mensagem <span class="required">*</span></label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Sua mensagem"></textarea>
+                    </div>
+        
+                    <div class="form-group">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </main>
 
-            <footer class="footer">Footer</footer>
+            <aside class="right-sidebar"></aside>
+
+            <footer class="footer">
+              <div class="divfoot">
+                <div>
+                  <img class="imgfoot" src="./img/gov.svg">
+                </div>
+                <div>
+                  <p class="txtfoot">Feito com VS Code</p>
+                </div>
+              </div>
+            </footer>
         </div>
 
 
